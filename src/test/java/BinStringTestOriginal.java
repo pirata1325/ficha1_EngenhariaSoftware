@@ -13,7 +13,7 @@ public class BinStringTestOriginal {
     }
 
     @Test
-    public void testSumFunction(){
+    public void testSumFunctionShouldReturnDecimalValue(){
 
         int expected = 0;
         Assertions.assertEquals(expected, binString.sum(""), "\"\" should be 0");
@@ -24,7 +24,7 @@ public class BinStringTestOriginal {
     }
 
     @Test
-    public void testBinariseFunction(){
+    public void testBinariseFunctionShouldReturnReversedBinaryCode(){
 
 
           String expected = "101";
@@ -40,7 +40,7 @@ public class BinStringTestOriginal {
     }
 
     @Test
-    public void testTotalConversion(){
+    public void testTotalConversionShouldReturnOctalValue(){
         String expected = "1000001";
         Assertions.assertEquals(expected, binString.convert("A"), "A should be 1000001");
     }
