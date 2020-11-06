@@ -1,8 +1,10 @@
+
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
 public class BinStringTestOriginal {
+
     private BinString binString;
 
     @BeforeEach
@@ -24,11 +26,16 @@ public class BinStringTestOriginal {
     @Test
     public void testBinariseFunction(){
 
-        String expected = "101";
-        Assertions.assertEquals(expected, binString.binarise(5), "5 should be 101");
 
-        expected = "11111100";
-        Assertions.assertEquals(expected, binString.binarise(252), "252 should be 11111100");
+          String expected = "101";
+          Assertions.assertEquals(expected, binString.binarise(5), "5 should be 101");
+
+
+
+          expected = "11111100";
+          Assertions.assertEquals(expected, binString.binarise(252), "252 should be 11111100");
+
+
 
     }
 
